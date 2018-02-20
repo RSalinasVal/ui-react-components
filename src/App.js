@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // import NavBarTop from './components/NavBarTop';
 import Slide from './components/Slide';
+import ImageCard from './components/ImageCard';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
 
           <div className="main">
           <Route path="/slide" component={Slide} />
+          <Route path="/image-card" component={ImageCard} />
           </div>
 
         </div>

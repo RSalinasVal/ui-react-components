@@ -47,7 +47,9 @@ import { Link } from "react-router-dom";
                      <div className="nav-link active">
                         <div className="nav-title"><Link to="/slide">Slide</Link></div>
                     </div>
-    
+                    <div className="nav-link">
+                        <div className="nav-title"><Link to="/image-card">Image Card</Link></div>
+                    </div>   
 			    </div>
 
             </div>

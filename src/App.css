@@ -1,5 +1,6 @@
 html, body {
   overflow: hidden;
+  background: #eeeeef;
 }
 html {
   height: 100%;
@@ -16,5 +17,5 @@ a {
   text-decoration: none;
 }
 .main{
-  margin-left: 20%;
+  margin-left: 10%;
 }
